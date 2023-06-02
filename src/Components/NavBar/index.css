@@ -1,0 +1,34 @@
+.logo-container {
+     align-items: center;
+     display:flex;
+     justify-content: center;
+     margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    padding-left: 20px;
+    
+  }
+  
+  .store-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }

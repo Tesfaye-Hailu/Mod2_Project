@@ -1,7 +1,7 @@
 
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
 import { PrimaryContext } from '../../Components/PrimaryContext';
+import './index.css';
 
 const Cart = () => {
   const { cartItems, clearCart } = useContext(PrimaryContext);
@@ -9,22 +9,22 @@ const Cart = () => {
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
   const handleFinalizePayment = () => {
-    // Handle finalize payment logic here
+    
     alert("Thank you for shopping with us!");
     clearCart(); // Clear the cart
   };
 
   return (
-    <div>
+    <div className="cart-container">
       <h1>Cart</h1>
-      <p>Total Price: ${totalPrice.toFixed(2)}</p>
+      <h4>Total Price: ${totalPrice.toFixed(2)}</h4>
       {cartItems.map((item) => (
-        <div key={item.id}>
+        <div key={item.id}  className="item-price">
           <h3>{item.title}</h3>
-          <p>${item.price}</p>
+          <h5>${item.price}</h5>
         </div>
       ))}
-      <button onClick={handleFinalizePayment}>Finalize Payment in Cash</button>
+      <button onClick={handleFinalizePayment}>Finalize Payment!</button>
     </div>
   );
 };

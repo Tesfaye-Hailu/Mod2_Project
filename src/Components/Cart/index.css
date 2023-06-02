@@ -1,0 +1,23 @@
+.cart-container {
+    padding-left: 30PX;
+  }
+
+  
+  button {
+    background-color:green;
+    color: white;
+    font-size: 20px;
+  }  
+
+  .item-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-price h3 {
+    margin-right: 10px;
+  }
+  
+h5 {
+  color: red; 
+}  

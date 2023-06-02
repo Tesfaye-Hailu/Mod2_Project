@@ -7,7 +7,7 @@ import ProductListing from './Components/ProductListing';
 import ProductDetails from './Components/ProductDetails';
 import NavBar from './Components/NavBar';
 import Cart from './Components/Cart';
-
+import Footer from './Components/Footer';
 const App = () => {                                                                              
 
 return (                                  
@@ -21,8 +21,9 @@ return (
       <Route path="/cart" component={Cart} />  */}
       <Route path="/products/:id" element={<ProductDetails />} /> {/* Include the :id parameter */}
       <Route path="/cart" element={<Cart />} /> {/* Use the 'element' prop for rendering components */}
-                                                                
+                                                               
     </Routes>
+    <Footer />
   </Router>
 </PrimaryProvider>
 );

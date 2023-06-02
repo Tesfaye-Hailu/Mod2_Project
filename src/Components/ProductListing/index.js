@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { PrimaryContext } from '../../Components/PrimaryContext';
+import './index.css';
 
 const ProductListing = () => {
   const { products } = useContext(PrimaryContext);

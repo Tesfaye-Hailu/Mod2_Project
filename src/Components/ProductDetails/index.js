@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { PrimaryContext } from '../../Components/PrimaryContext';
+import './index.css';
 
 const ProductDetails = () => {
   const { id } = useParams();

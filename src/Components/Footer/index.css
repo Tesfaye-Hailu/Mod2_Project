@@ -1,0 +1,31 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around
+    
+  }
+  
+  .contact-info {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+  }
+  
+  .contact-info h4 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .copy-right {
+    flex: 1;
+    text-align: right;
+    padding-left: 10px;
+  }
