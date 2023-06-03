@@ -6,9 +6,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="contact-info">
         <h4>Contact Information</h4>
-        <p>Address: fourth & Blanchard Building, Seattle, USA</p>
-        <p>Phone: (206) 123-4567</p>
-        <p>Email: info@tesfayeBoutique.com</p>
+        <p>Address: Downtown Seattle, USA</p>
+        <a href="www.Tesfayestore.com" className="contact-info">  
+         www.TesfayeStore.com</a>
+         <p className="contact-info">  Phone: (206) 123-4567</p>
+        <p className="contact-info">     Email: info@tesfayeStore.com</p>
       </div>
 
       <div className="copyright">
@@ -18,5 +20,5 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
+                 
+export default Footer;                     
