@@ -1,42 +1,32 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f5f5f5;
-    padding: 10px;
+  .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-top: 5px;
   }
   
   .contact-info {
-    flex: 1;
-    text-align: left;
-    margin-right: 10px;
+    margin-bottom: auto;
   }
   
-  .contact-info h4 {
-    margin-bottom: 10px;
+  .contact-info a {
+    color: #000;
+    text-decoration: none;
+    margin-bottom: auto;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
   }
   
   .contact-info p {
-    margin: 5px 0;
+    margin: 0;
   }
   
-  .copy-right {
-    flex: 1;
-    text-align: right;
-    margin-left: 10px;
-    padding-right: 10px;
-  }
   
-  .footer-divider {
-    flex-basis: 1px;
-    background-color: #ccc;
-    margin: 0 10px;
-  }
-  .contact-info {
-    display: inline;
-  }
+  
+  
+  
+  

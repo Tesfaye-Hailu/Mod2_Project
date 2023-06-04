@@ -1,7 +1,18 @@
 import React from 'react';
 import './index.css';
+import { useLocation } from 'react-router-dom';
+
+
 
 const Footer = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
+  if (!isHomePage) {
+    return null; // Hide the footer on other pages
+  }
+
+
   return (
     <footer className="footer">
       <div className="contact-info">
@@ -14,7 +25,7 @@ const Footer = () => {
       </div>
 
       <div className="copyright">
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Tesfaye Online Store. All rights reserved.</p>
         <p>Terms of Service | Privacy Policy</p>
       </div>
     </footer>

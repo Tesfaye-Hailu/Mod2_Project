@@ -1,16 +1,22 @@
 
 import React, { useContext } from 'react';
-import { PrimaryContext } from '../../Components/PrimaryContext';
+import { PrimaryContext } from '../PrimaryContext';
 import './index.css';
 
 const Cart = () => {
   const { cartItems, clearCart } = useContext(PrimaryContext);
 
+  //To calculate the total price of all items in the cartItems array. 
+  //It uses the reduce method to iterate over each item in the array.
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
+
   const handleFinalizePayment = () => {
-    
-    alert("Thank you for shopping with us!");
+    const currentDate = new Date();
+    const alertMessage = `Thank you for shopping with us!\n\nCurrent date and time: ${currentDate}`;
+  
+    alert(alertMessage);
+  
     clearCart(); // Clear the cart
   };
 
