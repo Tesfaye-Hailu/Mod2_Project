@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Mod2_Project/static/css/main.a69dd5bb.css",
+    "main.js": "/Mod2_Project/static/js/main.a7522fdb.js",
+    "static/js/787.5c46e4cb.chunk.js": "/Mod2_Project/static/js/787.5c46e4cb.chunk.js",
+    "static/media/MenClothing.jpg": "/Mod2_Project/static/media/MenClothing.724f67d81c00d2548649.jpg",
+    "static/media/WomenClothing.jpg": "/Mod2_Project/static/media/WomenClothing.31eec775458fffbd617b.jpg",
+    "static/media/Jewellery.jpg": "/Mod2_Project/static/media/Jewellery.6056e8c872debc59d64e.jpg",
+    "static/media/Electronics.jpg": "/Mod2_Project/static/media/Electronics.98999c1d8f1ed07e76bf.jpg",
+    "index.html": "/Mod2_Project/index.html",
+    "main.a69dd5bb.css.map": "/Mod2_Project/static/css/main.a69dd5bb.css.map",
+    "main.a7522fdb.js.map": "/Mod2_Project/static/js/main.a7522fdb.js.map",
+    "787.5c46e4cb.chunk.js.map": "/Mod2_Project/static/js/787.5c46e4cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a69dd5bb.css",
+    "static/js/main.a7522fdb.js"
+  ]
+}
