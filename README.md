@@ -18,11 +18,11 @@
 
 **The Product page:** Shows the list of all products by its category. There is a button which enables us to extract products based on its category and here below are the buttons/category of the products:
 
-•	**Jewelry** – when this button is clicked, only jewelry with its name and image will be displayed.
-•	**Men’s Clothing** – when this button is clicked, only Men’s clothing with its name and image will be displayed.
-•	**Women’s Clothing** – when this button is clicked, only women’s clothing with its name and image will be displayed.
-•	**Electronics** – when this button is clicked, only Electronics with its name and image will be displayed.
-•	**All Products together** – when this button is clicked, All products with its name and image will be displayed.
+•**Jewelry** – when this button is clicked, only jewelry with its name and image will be displayed.
+•**Men’s Clothing** – when this button is clicked, only Men’s clothing with its name and image will be displayed.
+•**Women’s Clothing** – when this button is clicked, only women’s clothing with its name and image will be displayed.
+•**Electronics** – when this button is clicked, only Electronics with its name and image will be displayed.
+•**All Products together** – when this button is clicked, All products with its name and image will be displayed.
 
 **The Product detail page** – the product listing page shows just name of the product and its picture. If the customer or user want to see the detail of a product, he/she needs to click either the image or name of the product then the application will take them to product detail page. In this page, the user will get additional information like, its price, detailed descriptions of the product and its rating in addition to name & image of the product.
 
