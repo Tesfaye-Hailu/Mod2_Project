@@ -42,7 +42,10 @@ This application is very simple to use and can be easily adaptable for any onlin
 The application is built with **REACT JS, Java Script, CSS & HTML.**
 
 **Contact**
-Project Link: https://github.com/Tesfaye-Hailu/Mod2_Project.git
+github Project Link: https://github.com/Tesfaye-Hailu/Mod2_Project.git
+
+**Deployment link**  https://tesfaye-hailu.github.io/Mod2_Project/
+
  
 **Acknowledgement**
 I would like to appreciate my instructor Mr Chase Van Halen for his continuous guidance and help in all aspects of this project.
