@@ -1,5 +1,7 @@
 **Project Title** : Online Store Application
+
 **About the project:** The project is a platform to buy products online.
+
 **Motivation:** I’m motivated to do this project to practice what I have learnt in class. But I have also a plan to upgrade it  by adding additional features for possible usage of own business. 
 
  I have used API to fetch data. Then, the application will display products per their category like:
@@ -19,14 +21,19 @@
 **The Product page:** Shows the list of all products by its category. There is a button which enables us to extract products based on its category and here below are the buttons/category of the products:
 
 •**Jewelry** – when this button is clicked, only jewelry with its name and image will be displayed.
+
 •**Men’s Clothing** – when this button is clicked, only Men’s clothing with its name and image will be displayed.
+
 •**Women’s Clothing** – when this button is clicked, only women’s clothing with its name and image will be displayed.
+
 •**Electronics** – when this button is clicked, only Electronics with its name and image will be displayed.
+
 •**All Products together** – when this button is clicked, All products with its name and image will be displayed.
 
 **The Product detail page** – the product listing page shows just name of the product and its picture. If the customer or user want to see the detail of a product, he/she needs to click either the image or name of the product then the application will take them to product detail page. In this page, the user will get additional information like, its price, detailed descriptions of the product and its rating in addition to name & image of the product.
 
 If the customer decides to buy the product, then there is an **Add to Cart** button in product Details page, and when this button is clicked, it will take to Cart Page. Here the total price of the product will be calculated, and payment will be finalized. Once payment is done, thank you message & date and time will be displayed as an alert message.
+
 **The footer** element will be displayed only in the home page and not on other pages for better visibility of products in the website.
 
 This application is very simple to use and can be easily adaptable for any online stores be it clothing, shoes, electronics, liquor, supermarkets, pharmacies or any non-service business sectors. By doing so, for the sellers it will create huge market access and consequently it will increase revenue. For buyers, it will save time, energy and more importantly creates convenience. It will also decrease cost of products by avoiding intermediary costs.
