@@ -12,36 +12,40 @@ const Home = () => {
       <h1>Welcome to our Online Store</h1>
       <h2>Discover a wide range of products at great prices.</h2>
     
-     
       <div className="product-categories">
-        
-          <div className="category">
+        <div className="category">
+          <div className="image-container">
             <img src={MenClothingImage} alt="Men's Clothing" />
-            <h3>Men's Clothing</h3>
           </div>
+          <h3>Men's Clothing</h3>
+        </div>
         
-        
-          <div className="category">
+        <div className="category">
+          <div className="image-container">
             <img src={ElectronicsImage} alt="Electronics" />
-            <h3>Electronics</h3>
           </div>
+          <h3>Electronics</h3>
+        </div>
         
-        
-          <div className="category">
+        <div className="category">
+          <div className="image-container">
             <img src={JewelleryImage} alt="Jewelries" />
-            <h3>Jewelries</h3>
           </div>
+          <h3>Jewelries</h3>
+        </div>
         
-        
-          <div className="category">
+        <div className="category">
+          <div className="image-container">
             <img src={WomenClothingImage} alt="Women's Clothing" />
-            <h3>Women's Clothing</h3>
           </div>
-        
+          <h3>Women's Clothing</h3>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Home;  
+export default Home;
+
+
       
